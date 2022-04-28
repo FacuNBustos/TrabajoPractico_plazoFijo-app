@@ -46,13 +46,13 @@ Consideraciones:
 <a name="screenshot"></a>
 ### Screenshot
 
-![Home app](../Cap-Home.PNG)
-![Home responsive app](../Cap-Home-Responsive.PNG)
-![Catch error](../Cap-Home-Error.PNG)
-![Calculo sin reinversion](../Cap-Home-NoReinvercion.PNG)
-![Calculo con reinversion y grafico](../Cap-Home-conReinvercion.PNG)
-![Division de carpetas](../Cap-Carpetas.PNG)
-![Tests realizados](../Cap-Test-jest.PNG)
+![Home app](./src/Cap-Home.PNG)
+![Home responsive app](./src/Cap-Home-Responsive.PNG)
+![Catch error](./src/Cap-Home-Error.PNG)
+![Calculo sin reinversion](./src/Cap-Home-NoReinvercion.PNG)
+![Calculo con reinversion y grafico](./src/Cap-Home-conReinvercion.PNG)
+![Division de carpetas](./src/Cap-Carpetas.PNG)
+![Tests realizados](./src/Cap-Test-jest.PNG)
 
 
 <a name="technologies"></a>
