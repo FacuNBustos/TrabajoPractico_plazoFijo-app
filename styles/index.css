@@ -20,7 +20,7 @@ body{
     height: 75vh;
     width: 70vw;
     background-color: lightblue;
-    border: solid 1px white;
+    border: solid 2px white;
     border-radius: 4px;
     gap: 15px;
 }

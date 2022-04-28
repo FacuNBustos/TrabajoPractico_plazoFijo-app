@@ -13,3 +13,5 @@ function useInputFilter(cadena) {
         return 'Error';
     }
 }
+
+module.exports = useInputFilter;
