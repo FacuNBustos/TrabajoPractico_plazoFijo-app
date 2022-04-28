@@ -1,0 +1,15 @@
+{
+  "name": "plazofijo_app-tp",
+  "version": "1.0.0",
+  "description": "Trabajo practico, laboratorio III",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest index.test.js",
+    "start": "index.html"
+  },
+  "author": "Facundo Nicolas Bustos",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.2"
+  }
+}
