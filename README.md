@@ -71,11 +71,12 @@ Lista de texnologias utilizadas en el proyecto:
 
 Una pequenia introduccion de como instalar el proyecto:
 ```
-$ git clone https://example.com
+$ git clone git@github.com:FacuNBustos/TrabajoPractico_plazoFijo-app.git
 $ npm i
 $ npm run start
-
+```
 En caso de necesitar testear, utilizar los siguientes script:
 ```
 $ npm run test
 $ npm run test:watch 
+```
