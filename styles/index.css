@@ -1,0 +1,59 @@
+
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.t{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #F2F3F7 url("https://i.alicdn.com/img/imgextra/i1/O1CN01aoT98U1JPCj7GL8rP_!!6000000001020-0-tps-1920-855.jpg") no-repeat center 0;
+}
+.t-content{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 75vh;
+    width: 70vw;
+    background-color: lightblue;
+    border: solid 1px white;
+    border-radius: 4px;
+    gap: 15px;
+}
+.inputs{
+    width: 100%;
+    margin: 20px 10px 0px 10px;
+}
+#indice-table{
+    margin-top: 20px;
+}
+.results{
+    display: grid;
+    grid-template-rows: 47% 53%;
+    height: 99%;
+    margin: 5px 20px 0px 10px;
+    padding-top: 10px;
+    border-radius: 3px;
+    background-color: rgb(198, 223, 231);
+}
+#result-content{
+    display: flex;
+    flex-direction: column;
+}
+.input-group-text{
+    gap: 5px;
+}
+.form-control{
+    text-align: center;
+}
+.input-group.mb-3{
+    margin: 9px !important;
+}
+.form-floating.mb-3{
+    margin: 9px !important;
+    width: 100%;
+}
