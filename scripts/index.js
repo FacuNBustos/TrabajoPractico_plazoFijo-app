@@ -12,10 +12,10 @@ const ctx = document.getElementById('myChart').getContext('2d');
 document.getElementById('myChart').style.display = 'none';
 const configChart = {
   labels: [
-    'January',
-    'February',
-    'March',
-    'April'
+    '1er Periodo',
+    '2do Periodo',
+    '3er Periodo',
+    '4to Periodo'
   ],
   datasets: [{
     type: 'bar',
@@ -63,7 +63,7 @@ const handleSubmit = (e) => {
             else interes = 55;
 
             for (let i = 0; i < 4; i++){
-                montoFinal = (arrayInicial[counter] * (((cantidadDias.value / 4)/360) * (interes/100))) + arrayInicial[counter];
+                montoFinal = (arrayInicial[counter] * ((cantidadDias.value/360) * (interes/100))) + arrayInicial[counter];
                 arrayMontoFinal.push(montoFinal);
                 arrayInicial.push(montoFinal);
                 counter += 1;
